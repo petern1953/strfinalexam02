@@ -197,6 +197,18 @@
       "title": "Shopping",
       "description": "Operative 3rd generation flexibility",
       "active": true
+    },
+    {
+      "id": 36,
+      "title": "Hiking",
+      "description": "Dextended contextually based",
+      "active": true
+    },
+    {
+      "id": 37,
+      "title": "Diking",
+      "description": "Extended contextually based",
+      "active": true
     }
   ]
 }

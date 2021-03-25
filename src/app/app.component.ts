@@ -23,7 +23,7 @@ export class AppComponent {
     let response = confirm(`Do you really want to delete todo ${todo.id}?`);
     if (response === true) {
       this.todoService.remove(todo).subscribe(() => {
-        console.log('deleted');
+        // console.log('deleted');
         this.todos$ = this.todoService.getAll();
       });
     }
@@ -32,8 +32,22 @@ export class AppComponent {
   onUpdateClick(todo: Todo) {
     todo.active = !todo.active;
     this.todoService.update(todo).subscribe(() => {
-      console.log('updated');
+      // console.log('updated');
       this.todos$ = this.todoService.getAll();
+    });
+  }
+
+  onCreateClick(ctrls: any) {
+    // console.log(ctrls.title.pristine);
+    // console.log(ctrls.description.pristine);
+    this.selectedTodo.active = true;
+    // console.log(this.selectedTodo);
+    this.todoService.create(this.selectedTodo).subscribe(() => {
+      // console.log('created');
+      this.todos$ = this.todoService.getAll();
+      this.selectedTodo = new Todo();
+      ctrls.title.pristine = true;
+      ctrls.description.pristine = true;
     });
   }
 

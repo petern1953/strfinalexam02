@@ -19,6 +19,6 @@ szöveget.
 - ok Attribútumok és reguláris kifejezések használatával validáld a mezőkbe írt adatokat. 
 - ok Ha nem megfelelő az adat, akkor jelenjen meg releváns hibaüzenet közvetlenül a hibás adatot tartalmazó mező alatt. 
 - ok Ha az űrlap bármely mezője hibás adatot tartalmaz, a mentés gomb legyen letiltva és ne legyen az űrlap elküldhető.
-### 6. Tedd lehetővé új rekord rögzítését. 
-- Az oldal felső részén látható űrlap megfelelő kitöltése után a mentés gombra kattintva történjen meg az új rekord beszúrása az adatbázisba. 
+### 6. ok Tedd lehetővé új rekord rögzítését. 
+- ok Az oldal felső részén látható űrlap megfelelő kitöltése után a mentés gombra kattintva történjen meg az új rekord beszúrása az adatbázisba. 
 - ok A beszúráshoz a TodoService osztályban is hozd létre a szükséges metódusokat. 

@@ -33,13 +33,14 @@
             class="form-control"
             required
             pattern="[a-zA-Z0-9 ]{25,}">
-            </textarea>
+          </textarea>
           <div [hidden]="todoForm.controls.description?.valid || todoForm.controls.description?.pristine" class="error__message mt-1">
             <small>Required field! Must be at least 25 chars of length.</small>
           </div>
         </div>
         <button class="btn btn-primary btn-block mt-2"
-          [disabled]="todoForm.invalid">
+          [disabled]="todoForm.invalid"
+          (click)="onCreateClick(todoForm.controls)">
           <i class="fa fa-save"></i>
         </button>
       </form>
