@@ -1,15 +1,15 @@
-### 1. A megjelenő listában készítsd el a törlés funkcionalitást! 
+### 1. ok A megjelenő listában készítsd el a törlés funkcionalitást! 
 - ok A törlés gombra kattintva a példa adatbázisból törlődjön az adott rekord. 
 - ok Törlés előtt jelenjen meg egy megerősítő kérdés. 
 - ok A törléshez a TodoService osztályban is hozd létre a szükséges metódust.
-### 2. Tedd szűrhetővé a listában megjelenő adatokat! 
-- A táblázat feletti beviteli mezőt használd. 
-- A szűrés beírásra működjön. 
-- A beviteli mező értékének módosítása esetén a lista azon rekordjai maradjanak láthatóak, amelyek `title` mezője részben vagy egészben tartalmazza a beviteli mezőbe gépelt
+### 2. ok Tedd szűrhetővé a listában megjelenő adatokat! 
+- ok A táblázat feletti beviteli mezőt használd. 
+- ok A szűrés beírásra működjön. 
+- ok A beviteli mező értékének módosítása esetén a lista azon rekordjai maradjanak láthatóak, amelyek `title` mezője részben vagy egészben tartalmazza a beviteli mezőbe gépelt
 szöveget.
-### 3. Tedd rendezhetővé a listában megjelenő adatokat! 
-- Ha a felhasználó a táblázat felett lévő gombra kattint, akkor a megjelenő rekordok rendeződjenek a Title oszlop szerint növekvő sorrendbe. 
-- Csak növekvő sorrendbe kell rendezni.
+### 3. ok Tedd rendezhetővé a listában megjelenő adatokat! 
+- ok Ha a felhasználó a táblázat felett lévő gombra kattint, akkor a megjelenő rekordok rendeződjenek a Title oszlop szerint növekvő sorrendbe. 
+- ok Csak növekvő sorrendbe kell rendezni.
 ### 4. Tedd módosíthatóvá a lista elemeinek active értékét! 
 - A táblázat sorainak utolsó cellájában lévő gombra kattintva (egy check jel látható benne) az
 adatbázisban kerüljenek frissítésre az adott rekord adatai. 

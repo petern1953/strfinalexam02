@@ -13,6 +13,10 @@ export class AppComponent {
 
   selectedTodo: Todo = new Todo();
 
+  filterText: string = '';
+  filterKey: string = 'title';
+  sorterKey: string = '';
+
   constructor(private todoService: TodoService) {}
 
   onDeleteClick(todo: Todo) {
@@ -23,5 +27,9 @@ export class AppComponent {
         this.todos$ = this.todoService.getAll();
       });
     }
+  }
+
+  onSortClick() {
+    this.sorterKey = 'title';
   }
 }
