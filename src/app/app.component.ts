@@ -29,6 +29,14 @@ export class AppComponent {
     }
   }
 
+  onUpdateClick(todo: Todo) {
+    todo.active = !todo.active;
+    this.todoService.update(todo).subscribe(() => {
+      console.log('updated');
+      this.todos$ = this.todoService.getAll();
+    });
+  }
+
   onSortClick() {
     this.sorterKey = 'title';
   }

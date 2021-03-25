@@ -10,11 +10,10 @@ szöveget.
 ### 3. ok Tedd rendezhetővé a listában megjelenő adatokat! 
 - ok Ha a felhasználó a táblázat felett lévő gombra kattint, akkor a megjelenő rekordok rendeződjenek a Title oszlop szerint növekvő sorrendbe. 
 - ok Csak növekvő sorrendbe kell rendezni.
-### 4. Tedd módosíthatóvá a lista elemeinek active értékét! 
-- A táblázat sorainak utolsó cellájában lévő gombra kattintva (egy check jel látható benne) az
-adatbázisban kerüljenek frissítésre az adott rekord adatai. 
-- Ha az active érték true volt, akkor legyen false és ha false volt akkor legyen true. 
-- A módosításhoz a TodoService osztályban is hozd létre a szükséges metódust.
+### 4. ok Tedd módosíthatóvá a lista elemeinek active értékét! 
+- ok A táblázat sorainak utolsó cellájában lévő gombra kattintva (egy check jel látható benne) az adatbázisban kerüljenek frissítésre az adott rekord adatai. 
+- ok Ha az active érték true volt, akkor legyen false és ha false volt akkor legyen true. 
+- ok A módosításhoz a TodoService osztályban is hozd létre a szükséges metódust.
 ### 5. Validáld az adatokat az oldal tetején megjelenő űrlapon! 
 - Minden input elem előtt kommentben feltüntettük a validálás szabályait. 
 - Attribútumok és reguláris kifejezések használatával validáld a mezőkbe írt adatokat. 
