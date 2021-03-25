@@ -15,11 +15,10 @@ szöveget.
 - ok Ha az active érték true volt, akkor legyen false és ha false volt akkor legyen true. 
 - ok A módosításhoz a TodoService osztályban is hozd létre a szükséges metódust.
 ### 5. Validáld az adatokat az oldal tetején megjelenő űrlapon! 
-- Minden input elem előtt kommentben feltüntettük a validálás szabályait. 
-- Attribútumok és reguláris kifejezések használatával validáld a mezőkbe írt adatokat. 
-- Ha nem megfelelő az adat, akkor jelenjen meg releváns hibaüzenet közvetlenül a hibás adatot
-tartalmazó mező alatt. 
-- Ha az űrlap bármely mezője hibás adatot tartalmaz, a mentés gomb legyen letiltva és ne legyen az űrlap elküldhető.
+- ok Minden input elem előtt kommentben feltüntettük a validálás szabályait. 
+- ok Attribútumok és reguláris kifejezések használatával validáld a mezőkbe írt adatokat. 
+- ok Ha nem megfelelő az adat, akkor jelenjen meg releváns hibaüzenet közvetlenül a hibás adatot tartalmazó mező alatt. 
+- ok Ha az űrlap bármely mezője hibás adatot tartalmaz, a mentés gomb legyen letiltva és ne legyen az űrlap elküldhető.
 ### 6. Tedd lehetővé új rekord rögzítését. 
 - Az oldal felső részén látható űrlap megfelelő kitöltése után a mentés gombra kattintva történjen meg az új rekord beszúrása az adatbázisba. 
-- A beszúráshoz a TodoService osztályban is hozd létre a szükséges metódusokat. 
+- ok A beszúráshoz a TodoService osztályban is hozd létre a szükséges metódusokat. 
