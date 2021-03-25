@@ -1,7 +1,7 @@
 ### 1. A megjelenő listában készítsd el a törlés funkcionalitást! 
-- A törlés gombra kattintva a példa adatbázisból törlődjön az adott rekord. 
-- Törlés előtt jelenjen meg egy megerősítő kérdés. 
-- A törléshez a TodoService osztályban is hozd létre a szükséges metódust.
+- ok A törlés gombra kattintva a példa adatbázisból törlődjön az adott rekord. 
+- ok Törlés előtt jelenjen meg egy megerősítő kérdés. 
+- ok A törléshez a TodoService osztályban is hozd létre a szükséges metódust.
 ### 2. Tedd szűrhetővé a listában megjelenő adatokat! 
 - A táblázat feletti beviteli mezőt használd. 
 - A szűrés beírásra működjön. 
